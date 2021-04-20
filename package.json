@@ -4,7 +4,7 @@
   "description": "express webpack boilerplate",
   "private": true,
   "scripts": {
-    "start": "npm run build && node server.js",
+    "start": "ENV=dev node server.js",
     "build": "webpack --mode production",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,6 +20,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "typescript": "^3.9.9",
     "webpack": "^4.46.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-middleware": "^3.7.3"
   }
 }

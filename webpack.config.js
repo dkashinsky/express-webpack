@@ -5,7 +5,7 @@ module.exports = () => {
         entry: './src/greet.ts',
         output: {
             path: path.resolve(__dirname, 'public'),
-            filename: 'greet.js'
+            filename: 'app.js'
         },
         module: {
             rules: [

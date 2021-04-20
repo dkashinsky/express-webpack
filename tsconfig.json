@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "outDir": "public",
+        "target": "ES5",
+        "lib": [
+            "ES6",
+            "DOM"
+        ]
+    }
+}

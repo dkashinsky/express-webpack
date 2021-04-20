@@ -4,7 +4,8 @@
   "description": "express webpack boilerplate",
   "private": true,
   "scripts": {
-    "start": "node server.js",
+    "start": "npm run build && node server.js",
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
@@ -14,5 +15,8 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.4"
   }
 }

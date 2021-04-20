@@ -2,13 +2,17 @@
   "name": "express-webpack",
   "version": "0.0.1",
   "description": "express webpack boilerplate",
-  "main": "index.js",
+  "private": true,
   "scripts": {
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": {
     "name": "Dmitry Kashinsky",
     "email": "dmitry.kashinsky@gmail.com"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
